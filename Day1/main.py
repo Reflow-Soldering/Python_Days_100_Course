@@ -2,8 +2,7 @@
 #주석처리 완료
 
 """
-텍스트 실습
-레시피
+텍스트 실습 1
 """
 
 print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
