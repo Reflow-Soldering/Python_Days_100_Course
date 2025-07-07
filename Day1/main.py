@@ -67,10 +67,19 @@ print("New lines can be created with a \ and the letter n")
 텍스트 실습2
 """
 
-glass1 = "milk"
-glass2 = "juice"
-glass3 = glass2
-glass2 = glass1
-glass1 = glass3
+# glass1 = "milk"
+# glass2 = "juice"
+# glass3 = glass2
+# glass2 = glass1
+# glass1 = glass3
 
-print(glass1,glass2)
+# print(glass1,glass2)
+
+"""
+Day 1 연습문제
+"""
+
+print("Welcom to the Band Name Generator\n")
+My_Country = input("What's the name of the city you grew up in?\n")
+My_Pet = input("What's your pet's name?\n")
+print("Your band name could be " + My_Country + " " + My_Pet)
