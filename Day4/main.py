@@ -1,25 +1,25 @@
 # import random
 
-#¸ğµâÀÌ¶õ?
-#¹Ì¸® ¸¸µé¾îÁø ³»¿ëÀ» »ç¿ëÇÑ °Í - ÇÔ¼ö¿Í °°ÀÌ º¸¸é µÈ´Ù
+#ëª¨ë“ˆì´ë€?
+#ë¯¸ë¦¬ ë§Œë“¤ì–´ì§„ ë‚´ìš©ì„ ì‚¬ìš©í•œ ê²ƒ - í•¨ìˆ˜ì™€ ê°™ì´ ë³´ë©´ ëœë‹¤
 
-#Á¤¼ö ·£´ı 
+#ì •ìˆ˜ ëœë¤ 
 """ random_integer = random.randint(1, 3)
 print(random_integer) """
 
-#ºÎµ¿¼Ò¼öÁ¡ ·£´ı
-#random.random() °ıÈ£´Â Ç×»ó ºÙ´Â°Ô ¸ÂÀ½
-#0.xxxxxx¸¸ ³ª¿È
+#ë¶€ë™ì†Œìˆ˜ì  ëœë¤
+#random.random() ê´„í˜¸ëŠ” í•­ìƒ ë¶™ëŠ”ê²Œ ë§ìŒ
+#0.xxxxxxë§Œ ë‚˜ì˜´
 """ random_number_0_to_1 = random.random() * 10
 print(random_number_0_to_1) """
 
 
-#ÁöÁ¤µÈ ¹üÀ§ÀÇ ºÎµ¿¼Ò¼öÁ¡
+#ì§€ì •ëœ ë²”ìœ„ì˜ ë¶€ë™ì†Œìˆ˜ì 
 
 """ random_float = random.uniform(0, 10)
 print(random_float) """
 
-#¾Õ¸é µŞ¸é ÀÌ¾ß±âÇÏ´Â°Å°°À½
+#ì•ë©´ ë’·ë©´ ì´ì•¼ê¸°í•˜ëŠ”ê±°ê°™ìŒ
 """ Head_or_Tail = random.randint(0,1)
 if(Head_or_Tail == 0) :
     print("Head")
@@ -27,9 +27,9 @@ else :
     print("Tail") """
 
 
-#¸®½ºÆ®¿¡ °üÇÑ Á¤ÀÇ
-# \´Â ÁÙ¹Ù²ŞÀ» ÇØµµ ÀÌ¾îÁø´Ù´Â °Í
-# ¸®½ºÆ®´Â 0ºÎÅÍ ½ÃÀÛÇÑ´Ù
+#ë¦¬ìŠ¤íŠ¸ì— ê´€í•œ ì •ì˜
+# \ëŠ” ì¤„ë°”ê¿ˆì„ í•´ë„ ì´ì–´ì§„ë‹¤ëŠ” ê²ƒ
+# ë¦¬ìŠ¤íŠ¸ëŠ” 0ë¶€í„° ì‹œì‘í•œë‹¤
 """ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", \
                      "Connecticut", "Massachusetts", "Maryland", "South Carolina",\
                      "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island",\
@@ -38,40 +38,40 @@ else :
                      "Iowa", "Wisconsin", "California", "Minnesota", "Oregon", "Kansas", "West Virginia",\
                      "Nevada", "Nebraska", "Colorado", "North Dakota", "South Dakota", "Montana", "Washington",\
                      "Idaho", "Wyoming", "Utah", "Oklahoma", "New Mexico", "Arizona", "Alaska", "Hawaii"] """
-#-1À» ³ÖÀ¸¸é ÇÏ¿ÍÀÌ -> ¸Ç ³¡¿¡¼­ ½ÃÀÛÇÑ´Ù
-# 0À» ¸ø¾²´Â ÀÌÀ¯´Â ¸®½ºÆ® ½ÃÀÛÀÌ 0¹øºÎÅÍ ½ÃÀÛÇÏ±â¶§¹®ÀÌ´Ù
+#-1ì„ ë„£ìœ¼ë©´ í•˜ì™€ì´ -> ë§¨ ëì—ì„œ ì‹œì‘í•œë‹¤
+# 0ì„ ëª»ì“°ëŠ” ì´ìœ ëŠ” ë¦¬ìŠ¤íŠ¸ ì‹œì‘ì´ 0ë²ˆë¶€í„° ì‹œì‘í•˜ê¸°ë•Œë¬¸ì´ë‹¤
 # print(states_of_america[1])
 
-#³»ºÎÀÇ ÀÚ·á ±³È¯
+#ë‚´ë¶€ì˜ ìë£Œ êµí™˜
 """ states_of_america[1] = "pecil"
 print(states_of_america[1]) """
 
-#append ÀÌ¾ß±â -> ¸Ç ³¡À¸·Î Ãß°¡ÇÔ
+#append ì´ì•¼ê¸° -> ë§¨ ëìœ¼ë¡œ ì¶”ê°€í•¨
 """ states_of_america.append("3rd world")
 print(states_of_america[-1]) """
 
-#extend -> ³ª¿­µÇ´Â ¸ğµç °ÍÀ» ³¡¿¡¼­ Ãß°¡ÇÔ
+#extend -> ë‚˜ì—´ë˜ëŠ” ëª¨ë“  ê²ƒì„ ëì—ì„œ ì¶”ê°€í•¨
 """ states_of_america.extend(["another1", "another222"])
 print(states_of_america) """
 
 
 
 
-###ÄÚµù ¿¬½À¹®Á¦ 1
+###ì½”ë”© ì—°ìŠµë¬¸ì œ 1
 # import random
 # friends = ["Alice", "Bob", "Charlie", "David", "Emanuel"]
 
-#³»°¡ ÇÑ °Í - ÇØ´ä2
+#ë‚´ê°€ í•œ ê²ƒ - í•´ë‹µ2
 """ random_friend = random.randint(0,4)
 print(friends[random_friend]) """
 
-#ÇØ´ä1
+#í•´ë‹µ1
 # print(random.choice(friends))
 
 
 
-#ÀÎµ¦½º ¿¡·¯¿¡ ´ëÇÑ ³»¿ë!!
-#¹è¿­, ÀÎµ¦½º °Çµå¸®Áö ¾Ê´Â ÀÌ»ó 0ºÎÅÍ ½ÃÀÛÇÔ
+#ì¸ë±ìŠ¤ ì—ëŸ¬ì— ëŒ€í•œ ë‚´ìš©!!
+#ë°°ì—´, ì¸ë±ìŠ¤ ê±´ë“œë¦¬ì§€ ì•ŠëŠ” ì´ìƒ 0ë¶€í„° ì‹œì‘í•¨
 states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", \
                      "Connecticut", "Massachusetts", "Maryland", "South Carolina",\
                      "New Hampshire", "Virginia", "New York", "North Carolina", "Rhode Island",\
@@ -83,16 +83,16 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", \
 
 # print(len(states_of_america[50]))
 
-#¸®½ºÆ®¿¡¼­ Ãß°¡
+#ë¦¬ìŠ¤íŠ¸ì—ì„œ ì¶”ê°€
 # states_of_america.extend(["aaa","bbb","ccc"])
 # print(states_of_america)
 
-#¸®½ºÆ®¿¡¼­ »èÁ¦
+#ë¦¬ìŠ¤íŠ¸ì—ì„œ ì‚­ì œ
 # states_of_america.pop(52)
 # print(states_of_america)
 
 
-#¾Æ´Ï³× ¾²³×
+#ì•„ë‹ˆë„¤ ì“°ë„¤
 """ dirty_dozen = ["Strawberries", "Spinach", "Kale", "Nectarines",\
                 "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"] """
 
@@ -103,11 +103,11 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", \
 
 # print(dirty_dozen)
 
-# ÃÖÁ¾ ¿¬½À¹®Á¦
+# ìµœì¢… ì—°ìŠµë¬¸ì œ
 import random
 
-#°³¼± ÇÊ¿ä °¡À§¹ÙÀ§º¸ ±ÔÄ¢
-#°¡À§ 0 ¹ÙÀ§ 1 º¸ 2
+#ê°œì„  í•„ìš” ê°€ìœ„ë°”ìœ„ë³´ ê·œì¹™
+#ê°€ìœ„ 0 ë°”ìœ„ 1 ë³´ 2
 while(1) :
     myhand = int(input("Gawee(0), Bawee(1), Bo(2) "))
     urhand = random.randint(0,2)
@@ -132,8 +132,8 @@ while(1) :
 while(1) :
     myhand = int(input("Gawee(0), Bawee(1), Bo(2) "))
     urhand = random.randint(0,2)
-#0À» 1ÀÌ ÀÌ±â°í 1À» 2°¡ ÀÌ±â°í, 2¸¦ 0ÀÌ ÀÌ±è
-# °¡À§ 0 ¹ÙÀ§ 1 º¸ 2
+#0ì„ 1ì´ ì´ê¸°ê³  1ì„ 2ê°€ ì´ê¸°ê³ , 2ë¥¼ 0ì´ ì´ê¹€
+# ê°€ìœ„ 0 ë°”ìœ„ 1 ë³´ 2
     if myhand == "0" :
         if(urhand == 1) :
             print("Lose\n")
@@ -157,4 +157,3 @@ while(1) :
             print("Draw\n")
     else :
         print("Again")  """
-
